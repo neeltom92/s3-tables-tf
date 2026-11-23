@@ -3,6 +3,11 @@
 Terraform + Terragrunt for Amazon S3 Tables (Iceberg): table bucket, namespaces, tables, and the
 S3 Tables integration with AWS analytics services (Glue Data Catalog).
 
+This is a reference implementation. In another codebase, follow that org's structure and supported
+Terraform/provider versions; [CLAUDE.md](CLAUDE.md) has the version compatibility table.
+
+Current state: nothing deployed (applied, verified, then destroyed).
+
 ## What it creates (dev, us-east-1)
 
 | Unit | Resources | AWS provider |
